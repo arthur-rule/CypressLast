@@ -11,6 +11,7 @@ const username = `user${Math.floor(Math.random() * 100000 + 100000)
         url: `${Cypress.env('apiUrl')}${Cypress.env('generateUser')}`,
         body: {
           userName: username,
+
           password: passWord,
         },
       }).then((response) => {
