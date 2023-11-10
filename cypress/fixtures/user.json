@@ -12,6 +12,8 @@
         "password" : "SuperSecretPassword"
     },
     "user3" : {
+        "username" : "arthur",
+        "password" : "TopSecretPassword"
 
     }
 }

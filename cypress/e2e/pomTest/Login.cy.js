@@ -14,6 +14,7 @@ describe('Auth: Login user with different ways', () => {
     it('Happy path Login scenario', () => {
        cy.fixture('user').then((user) => {
         auth.login(user.user2.username, user.user2.password);
+
        })
 
        cy.textExists('You logged into a secure area!');
