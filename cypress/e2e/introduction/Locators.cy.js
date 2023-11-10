@@ -16,6 +16,7 @@ describe('Find or Get Elements by Using Different Locators', () => {
         cy.get('input').each((item, index, list) => {
             expect(list).to.have.length(2);
             expect(item).to.have.attr('type');
+
         })
 
         // locate Login button with text

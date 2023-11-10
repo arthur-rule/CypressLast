@@ -15,6 +15,7 @@ describe('Cypress File Upload Test', () => {
         // assert that it is uploaded
         cy.get('#uploaded-files').then(() => {
             cy.contains('pic.png').should('be.visible');
+
         })
     })
 

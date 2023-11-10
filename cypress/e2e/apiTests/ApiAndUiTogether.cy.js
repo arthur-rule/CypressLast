@@ -47,6 +47,7 @@ const username = `user${Math.floor(Math.random() * 100000 + 100000)
             authorization: `Bearer ${response.body.token}`,
           },
           url: `${Cypress.env('apiUrl')}${Cypress.env('generateUser')}/${response.body.userId}`,
+
         });
       });
     });
